@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Oct 14 05:31:28 2020
-
+Synchronous_WebCrawler 
+    Downloads mcif_structure data sequententially 
+    
 @author: hgheiberger
 """
 
