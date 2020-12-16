@@ -1,2 +1,2 @@
 # Quantum-Structure-ML
-Repository for Fall 2020 machine-learning research position  
+Repository for fall 2020 machine-learning research position  
