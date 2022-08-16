@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Synchronous_WebCrawler 
+Asynchronous_WebCrawler 
     Downloads mcif_structure data in parallel 
 
 @author: hgheiberger
