@@ -1,0 +1,27 @@
+urop.py:65: DeprecationWarning: The object should be created within an async function
+  async with aiohttp.ClientSession() as session:
+urop.py:99: DeprecationWarning: The object should be created within an async function
+  async with aiohttp.ClientSession() as session:
+Initializing WebCrawler
+Sucessfully located 1562 mcif structures
+
+Downloading data....
+Downloaded 200 mcif files in data chunk 1 of 8.
+Chunk Execution time: 17.68 seconds.
+Downloaded 200 mcif files in data chunk 2 of 8.
+Chunk Execution time: 17.41 seconds.
+Downloaded 200 mcif files in data chunk 3 of 8.
+Chunk Execution time: 17.38 seconds.
+Downloaded 200 mcif files in data chunk 4 of 8.
+Chunk Execution time: 17.97 seconds.
+Downloaded 200 mcif files in data chunk 5 of 8.
+Chunk Execution time: 18.95 seconds.
+Downloaded 200 mcif files in data chunk 6 of 8.
+Chunk Execution time: 17.71 seconds.
+Downloaded 200 mcif files in data chunk 7 of 8.
+Chunk Execution time: 17.69 seconds.
+Downloaded 162 mcif files in data chunk 8 of 8.
+Chunk Execution time: 16.15 seconds.
+
+Successfully downloaded 1562 structures with file loss of 0 structures.
+Total Execution time: 141.85 seconds.

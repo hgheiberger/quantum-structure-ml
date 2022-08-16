@@ -1,0 +1,160 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 05/04/2020
+
+data_5yOhtAoR
+_audit_creation_date            2020-05-04
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+
+_citation_journal_abbrev        "J. Mater. Chem. C"
+_citation_journal_volume        2
+_citation_page_first            9215
+_citation_page_last             9223
+_citation_article_id            ?
+_citation_year                  2014
+_citation_DOI                   10.1039/c4tc01450b
+
+loop_
+_citation_author_name
+"F. Orlandi"
+"L. Righi"
+"C. Ritter"
+"C. Pernechele"
+"M. Solzi"
+"R. Cabassi"
+"F. Bolzoni"
+"G. Calestani"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     9
+_experiment_temperature     7.9
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mSM2 2 1 general primary 6 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Except for the unit cell parameters, position structure from a determination at 2K
+Below 7K a commensurate structure with k=(1/4,0,0) is reported (see #2.38 and #1.1.78)
+The MSSG also allows a sine modulation of the x component which is zero in the model
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate structure
+k-maximal magnetic symmetry (2 possible)
+;
+
+_parent_space_group.name_H-M_alt  "P m c 2_1"
+_parent_space_group.IT_number                       26
+_parent_space_group.transform_Pp_abc  "a,b,c;0,0,0"
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.230(7) 0.000000 0.000000
+
+
+_parent_space_group.child_transform_Pp_abc  "a,b,c;0,0,0"
+
+_space_group.magn_ssg_name  "Pmc2_11'(a00)0s0s"
+_space_group.magn_point_group_name  "mm21'"
+_space_group.magn_point_group_number  7.1.21
+_cell_length_a                 8.0206(8)
+_cell_length_b                 5.7813(8)
+_cell_length_c                 11.6316(18)
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,-x2,x3+1/2,-x4,+1
+3 x1,-x2,x3+1/2,x4+1/2,+1
+4 -x1,x2,x3,-x4+1/2,+1
+5 x1,x2,x3,x4+1/2,-1
+6 -x1,-x2,x3+1/2,-x4+1/2,-1
+7 x1,-x2,x3+1/2,x4,-1
+8 -x1,x2,x3,-x4,-1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Pb1 Pb 0.7628 0.9746 0.8653 1
+Pb2 Pb 0.7462 0.5477 0.5786 1
+W1 W 0 0.522 0.8644 1
+W2 W 0.5 0.001 0.6117 1
+Mn1 Mn 0.5 0.492 0.8646 1
+Mn2 Mn 0 0.998 0.1027 1
+O1 O 0 0.724 0.73 1
+O2 O 0 0.311 0.973 1
+O3 O 0.5 0.767 0.7103 1
+O4 O 0.5 0.222 0.721 1
+O5 O 0 0.249 0.7442 1
+O6 O 0.5 0.209 0.477 1
+O7 O 0.7384 0.0361 0.5956 1
+O8 O 0.5 0.294 0.9958 1
+O9 O 0.7667 0.52 0.8655 1
+O10 O 0 0.786 0.9568 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Mn1 0 0 0 0,0,0
+Mn2 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Mn1 x 1 0 0         0 mxs1
+Mn1 y 1 -2.11(5) 0  myc1 0
+Mn1 z 1 1.99(8) 0   mzc1 0
+Mn2 x 1 0 0 	    0 mxs1
+Mn2 y 1 2.11 0      myc1 0
+Mn2 z 1 1.99 0      mzc1 0
+

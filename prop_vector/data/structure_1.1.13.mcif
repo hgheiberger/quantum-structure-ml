@@ -1,0 +1,156 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/30/2017 16:45:37
+# Database entry: 1.1.13 MnAu2
+# Cif-like file for the case 1.1.13
+
+
+data_5yOhtAoR
+_audit_creation_date            2017-11-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Mn Au2'
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+
+_citation_journal_abbrev        "J. Phys. Radium"
+_citation_journal_volume        22
+_citation_page_first            337
+_citation_page_last             348
+_citation_article_id            .
+_citation_year                  1961
+_citation_DOI                   10.1051/jphysrad:01961002206033700
+
+loop_
+_citation_author_name
+"A. Herpin"
+"P. Meriel"
+
+
+
+
+_atomic_positions_source_database_code_ICSD   58549
+_atomic_positions_source_other               .
+
+_transition_temperature     363
+_experiment_temperature     293
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mLD5 4 2 special primary 1 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NSD
+First helical magnetic structure reported.
+see also Bussmann et al., Phys. Rev.  B 90, 144421 (2014)
+;
+
+_active_magnetic_irreps_details
+;
+1k magnetic structure
+k-maximal magnetic symmetry (4 possible)
+Active irrep 4-dim.  7 different possible superspace groups for the same irrep.
+;
+
+_parent_space_group.name_H-M_alt              'I 4/m m m'
+_parent_space_group.IT_number             139
+_parent_space_group.transform_Pp_abc    'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.000000 0.000000 0.283000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "I4221'(00\g)q00s"
+_space_group.magn_point_group_name  "4221'"
+_space_group.magn_point_group_number  "12.2.41"
+_cell_length_a                 3.363
+_cell_length_b                 3.363
+_cell_length_c                 8.592
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,-x2,x3,x4+1/2,+1
+3 -x2,x1,x3,x4+1/4,+1
+4 x2,-x1,x3,x4+3/4,+1
+5 -x1,x2,-x3,-x4,+1
+6 x1,-x2,-x3,-x4+1/2,+1
+7 x2,x1,-x3,-x4+3/4,+1
+8 -x2,-x1,-x3,-x4+1/4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1+1/2,x2+1/2,x3+1/2,x4,+1
+3 x1,x2,x3,x4+1/2,-1
+4 x1+1/2,x2+1/2,x3+1/2,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Au1 Au 0 0 0.35 1
+Mn1 Mn 0 0 0 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Mn1 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Mn1 x 1 0 3.5 0 mxs1
+Mn1 y 1 -3.5 0 -mxs1 0
+Mn1 z 1 0 0 0 0
+
+

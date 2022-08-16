@@ -1,0 +1,148 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 05/23/2020
+
+data_5yOhtAoR
+_audit_creation_date            2020-05-23
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+
+_citation_journal_abbrev        "PHYSICAL REVIEW B"
+_citation_journal_volume        83
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            024409
+_citation_year                  2011
+_citation_DOI                   10.1103/PhysRevB.83.024409
+
+loop_
+_citation_author_name
+"L.C. Chapon"
+"P. Manuel"
+"F. Damay"
+"P. Toledano"
+"V. Hardy"
+"C. Martin"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  6131
+_atomic_positions_source_other               .
+
+_transition_temperature     43
+_experiment_temperature     1.5
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mDT1 2 1 . primary 6 .
+mDT2 2 1 . primary 6 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Position structure from a room temperature model retrieved from ICSD
+polymorph (alpha)
+See also (Toth et al., Phys. Rev B 84, 054452 (2011)) (#1.1.87) for a similar model, but with elliptical spirals instead of circular, and with opposite chirality of the spin spirals, corresponding to an equivalent inversion-related domain.
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structure
+two irreps involved as primary. The two irrep modulations superposed in quadrature
+The spin modulation breaks the inversion symmetry but the resulting point group is non-polar. No induced ferroelectricity is possible.
+;
+
+_parent_space_group.name_H-M_alt  "Pmmn"
+_parent_space_group.IT_number             59
+_parent_space_group.transform_Pp_abc  "a,b,c;0,0,0"
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.000000 0.3317(2) 0.000000
+
+
+_parent_space_group.child_transform_Pp_abc  "a,b,c;0,0,0"
+
+_space_group.magn_ssg_name  "P2_12_121'(0b0)000s"
+_space_group.magn_point_group_name  "2221'"
+_space_group.magn_point_group_number  6.2.18
+_cell_length_a                 11.059
+_cell_length_b                 5.836
+_cell_length_c                 5.114
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1+1/2,-x2+1/2,x3,-x4+1/2,+1
+3 -x1,x2+1/2,-x3,x4,+1
+4 x1+1/2,-x2,-x3,-x4+1/2,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ca1 Ca 0.25 0.75 0.1481 1
+Ca2 Ca 0.75 0.75 0.4648 1
+Cr1 Cr -0.00780  0.25000  0.49420 1
+Cr2 Cr 0 0 0 1
+O1 O 0.594 0.25 0.162 1
+O2 O 0.409 0.25 0.821 1
+O3_1 O 0.402 0.497 0.33 1
+O3_2 O -0.402 -0.497 -0.33 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Cr1 0 0 0 0,0,0
+Cr2 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Cr1 x 1 0   -2.31(1) mxc1 mxs1
+Cr1 y 1 0    0       myc1 mys1
+Cr1 z 1 2.31 0       mzc1 mzs1
+Cr2 x 1 2.31 0       mxc1 mxs1
+Cr2 y 1 0    0       myc1 mys1
+Cr2 z 1 0    2.31    mzc1 mzs1
+

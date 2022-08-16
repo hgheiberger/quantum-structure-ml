@@ -1,0 +1,170 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/30/2017 16:46:38
+# Database entry: 1.1.38 MnSb2O6
+# Cif-like file for the case 1.1.38
+
+
+data_5yOhtAoR
+_audit_creation_date            2017-11-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Mn Sb2 O6'
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+
+_citation_journal_abbrev        "Physical Review Letters"
+_citation_journal_volume        111
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            017202
+_citation_year                  2013
+_citation_DOI                   10.1103/PhysRevLett.111.017202
+
+loop_
+_citation_author_name
+"R.D. Johnson"
+"K. Cao"
+"L.C. Chapon"
+"F. Fabrizi"
+"N. Perks"
+"P. Manuel"
+"J.J. Yang"
+"Y.S. Oh"
+"S.-W. Cheong"
+"P.G. Radaelli"
+
+
+
+
+_atomic_positions_source_database_code_ICSD   202953
+_atomic_positions_source_other               .
+
+_transition_temperature     12.5
+_experiment_temperature     6
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+? ? ? ? ? ? ?
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Plane of rotation of the cycloids could not be determined. Here the plane has been chosen to maximize the symmetry, keeping one of the binary point-group symmetry operations of the parent symmetry.
+Positional structure from a measurement at 14K (icsd 202953)
+;
+
+_active_magnetic_irreps_details
+;
+Two irrep modes involved. The cycloidal modulation is forced by symmetry for Mn1_1.
+Symmetry (or irrep modes involved) allow the tilting of the plane of the rotation of the Mn1_1 spins. The normal of the plane is only symmetry forced to be perpendicular to the <1,0,0> of the preserved binary axis.
+The form of the spin modulations of Mn1_2 can be more general within the resulting superspace symmetry.
+;
+
+_parent_space_group.name_H-M_alt              'P 321'
+_parent_space_group.IT_number             150
+_parent_space_group.transform_Pp_abc    'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.000000 0.000000 0.182000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "C21'(00\g)0s"
+_space_group.magn_point_group_name  "21'"
+_space_group.magn_point_group_number  "3.2.7"
+_cell_length_a                 8.8020(10)
+_cell_length_b                 8.8020(10)
+_cell_length_c                 4.7210(4)
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              120
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 x1-x2,-x2,-x3,-x4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Mn1_1 Mn 0.6380(9) 0 0 1
+Mn1_2 Mn 0 0.6380(9) 0 1
+Sb1_1 Sb 0 0 0 1
+Sb2_1 Sb 0.333333 0.666667 0.507(2) 1
+Sb3_1 Sb 0.3074(7) 0 0.5 1
+Sb3_2 Sb 0 0.3074(7) 0.5 1
+O1_1 O 0.1013(7) 0.8905(5) 0.7644(7) 1
+O1_2 O -0.8905(5) -0.7892(9) 0.7644(7) 2
+O2_1 O 0.4724(9) 0.5898(5) 0.7300(10) 1
+O2_2 O -0.5898(5) -0.1174(10) 0.7300(10) 2
+O3_1 O 0.2235(7) 0.7736(8) 0.2842(8) 1
+O3_2 O -0.7736(8) -0.5501(11) 0.2842(8) 2
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Mn1_1 0 0 0 0,0,0
+Mn1_2 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Mn1_1 x 1 4.12(3) 0 mxc1 mxs1
+Mn1_1 y 1 0 0 0 2*mxs1
+Mn1_1 z 1 0 4.12(3) 0 mzs1
+Mn1_2 x 1 -2.06 -3.56802 mxc1 mxs1
+Mn1_2 y 1 0 0 myc1 mys1
+Mn1_2 z 1 3.56802 -2.06 mzc1 mzs1
+
+

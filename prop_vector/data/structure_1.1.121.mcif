@@ -1,0 +1,162 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 04/18/2021
+
+data_5yOhtAoR
+_audit_creation_date            2021-04-18
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_citation_journal_abbrev        "PHYSICAL REVIEW B"
+_citation_journal_volume        103
+_citation_page_first            .
+_citation_page_last             .
+_citation_article_id            014443
+_citation_year                  2021
+_citation_DOI                   10.1103/PhysRevB.103.014443
+
+loop_
+_citation_author_name
+"S. K. Karna"
+"D. Tristant"
+"J. K. Hebert"
+"G. Cao"
+"R. Chapai"
+"W. A. Phelan"
+"Q. Zhang"
+"Y. Wu"
+"C. Dhital"
+"Y. Li"
+"H. B. Cao"
+"W. Tian" 
+"C. R. de la Cruz"
+"A. A. Aczel"
+"O. Zaharko"
+"A. Khasanov"
+"M. A. McGuire"
+"A. Roy"
+"W. Xie"
+"D. A. Browne"
+"I. Vekhter"
+"V. Meunier"
+"W. A. Shelton"
+"P. W. Adams"
+"P. T. Sprunger"
+"D. P. Young"
+"R. Jin"
+"J. F. DiTusa"
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_temperature_position_structure         285
+_temperature_atom_positions             .              
+_temperature_non-magn_atom_positions    .
+_temperature_cell_parameters            .
+
+_transition_temperature     36
+_experiment_temperature     4
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mDT3 4 2 special primary 3 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NSD and NPD
+Position structure from a determination at 285K
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structure
+k-maximal magnetic symmetry
+4-dim irrep along a special direction as primary
+;
+
+_parent_space_group.name_H-M_alt  "P -6 2 m"
+_parent_space_group.IT_number             189
+_parent_space_group.transform_Pp_abc  'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.00000 0.00000 0.193
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "P3211'(0,0,g)-t00s"
+_space_group.magn_point_group_name  "321'"
+_space_group.magn_point_group_number  18.2.66
+_cell_length_a                 6.54290
+_cell_length_b                 6.54290
+_cell_length_c                 3.89150
+_cell_angle_alpha              90.00000
+_cell_angle_beta               90.00000
+_cell_angle_gamma              120.00000
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x2,x1-x2,x3,x4+1/3,+1
+3 -x1+x2,-x1,x3,x4+2/3,+1
+4 x2,x1,-x3,-x4+1/3,+1
+5 -x1,-x1+x2,-x3,-x4+2/3,+1
+6 x1-x2,-x2,-x3,-x4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Fe1 Fe 0.76980 0.76980 0.00000 0.99700
+Sc1 Sc 0.41960 0.41960 0.50000 1.00000
+Ge1 Ge 0.00000 0.00000 0.50000 1.00200
+Ge2 Ge 0.66667 0.33333 0.00000 0.99600
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Fe1 0.00000 0.00000 0.00000 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Fe1 x 1 0.53 0.306   mxc1 0.57735*mxc1+1.15470*myc1
+Fe1 y 1 0.0  0.612   myc1 1.15470*mxc1+0.57735*myc1
+Fe1 z 1 0.0  0.0     mzc1 0.57735*mzc1
+

@@ -1,0 +1,162 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 05/04/2020
+
+data_5yOhtAoR
+_audit_creation_date            2020-05-04
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_citation_journal_abbrev        "J. Mater. Chem. C"
+_citation_journal_volume        2
+_citation_page_first            9215
+_citation_page_last             9223
+_citation_article_id            ?
+_citation_year                  2014
+_citation_DOI                   10.1039/c4tc01450b
+
+loop_
+_citation_author_name
+"F. Orlandi"
+"L. Righi"
+"C. Ritter"
+"C. Pernechele"
+"M. Solzi"
+"R. Cabassi"
+"F. Bolzoni"
+"G. Calestani"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     7
+_experiment_temperature     2
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mSM2 2 1 general primary 6 .
+mGM1 1 1  .      primary   2 .
+mX4  1 1  .      secondary 3 no
+
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Between about 9K to 7K a preceding incommensurate structure is observed
+Commensurate structure refined as a modulated structure using the superspace formalism under a magnetic superspace group (MSSG) with k=(0.25,0,0).
+The initial phase to define the commensurate structure could not be determined, but the value t=0.125  or equivalent (special direction for the 2-dim mSM2 order parameter) is proposed as the most plausible.
+The resulting commensurate structure described under a MSG can be seen in #2.38 (a shift of the origin along x is required for its description in the standard setting of its MSG).
+The modulation includes a single harmonic (restricted to the y and z moment components) plus a symmetry-allowed homogeneous k=0 term of the x component.
+The MSSG also allows a sine modulation of the x component which yielded negligible values in the refinement and was fixed to zero.
+;
+
+_active_magnetic_irreps_details
+;
+2k magnetic structure
+k-maximal magnetic symmetry
+two irreps with different k-vectors as primary.
+Harmonic with k=(1/2,0,0) (irrep mX4) is symmetry allowed but it is not present
+;
+
+_parent_space_group.name_H-M_alt  "P m c 2_1"
+_parent_space_group.IT_number                       26
+_parent_space_group.transform_Pp_abc  "a,b,c;0,0,0"
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.250000 0.000000 0.000000
+
+
+_parent_space_group.child_transform_Pp_abc  "a,b,c;0,0,0"
+
+_space_group.magn_ssg_name  "Pmc21(a00)0s0"
+_space_group.magn_point_group_name  "mm2"
+_space_group.magn_point_group_number  7.1.20
+_cell_length_a                 8.01620(10)
+_cell_length_b                 5.78220(10)
+_cell_length_c                 11.63490(10)
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,-x2,x3+1/2,-x4,+1
+3 x1,-x2,x3+1/2,x4+1/2,+1
+4 -x1,x2,x3,-x4+1/2,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Pb1 Pb 0.7628 0.9746 0.8653 1
+Pb2 Pb 0.7462 0.5477 0.5786 1
+W1 W 0 0.522 0.8644 1
+W2 W 0.5 0.001 0.6117 1
+Mn1 Mn 0.5 0.492 0.8646 1
+Mn2 Mn 0 0.998 0.1027 1
+O1 O 0 0.724 0.73 1
+O2 O 0 0.311 0.973 1
+O3 O 0.5 0.767 0.7103 1
+O4 O 0.5 0.222 0.721 1
+O5 O 0 0.249 0.7442 1
+O6 O 0.5 0.209 0.477 1
+O7 O 0.7384 0.0361 0.5956 1
+O8 O 0.5 0.294 0.9958 1
+O9 O 0.7667 0.52 0.8655 1
+O10 O 0 0.786 0.9568 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Mn1 -2.31 0 0 mx,0,0
+Mn2 2.31 0 0 mx,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Mn1 x 1 0 0      0 mxs1
+Mn1 y 1 -3.26 0  myc1 0
+Mn1 z 1 1.57  0  mzc1 0
+Mn2 x 1 0 0      0 mxs1
+Mn2 y 1 5.06  0  myc1 0
+Mn2 z 1 1.57  0  mzc1 0
+

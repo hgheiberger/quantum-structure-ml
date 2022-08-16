@@ -1,0 +1,140 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 03/09/2021 
+
+data_5yOhtAoR
+_audit_creation_date            2021-03-09
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_citation_journal_abbrev        "JOURNAL OF SOLID STATE CHEMISTRY"
+_citation_journal_volume        126
+_citation_page_first            15
+_citation_page_last             21
+_citation_article_id            .
+_citation_year                  1996
+_citation_DOI                   10.1006/jssc.1996.0303
+
+loop_
+_citation_author_name
+"R. Glaum"
+"M. Reehuis"
+"N. Stusser"
+"U. Kaiser"
+"F. Reinauer"
+
+_atomic_positions_source_database_code_ICSD  82285
+_atomic_positions_source_other               .
+
+_transition_temperature     25.5(5)
+_experiment_temperature     13
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mSM4 2 1 general primary 2 .
+mSM1 2 1 special primary 1 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD and NSD
+Value of the kx component of propagation vector is only approximate (estimatimated from a curve in the paper)
+For a better comparison with the initial phase chosen in the paper and the graphical representation therein, the origin along x4 of the MSSG has been shifted with respect to the one that can be considered standard. The value of the propagation vector given here (0.53,0,0) is appoximately the one observed at 13K (estimated from a figure of the paper), for which the paper gives a specific moment magnitude. This is different from the propagation vector employed in the figure of the paper: (0.571,0,0), and it is bound to yield a quite different graphical representation.
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structure
+two irreps as primary. They are shifted by pi/2 (in quadrature) to produce a cycloidal modulation
+The spins rotate circularly on the xy plane, but the MSSG allows a more complex modulation with elliptical orbits of the spins with their rotation plane being allowed to deviate from the ab plane, while keeping the a direction within the plane.
+The structure is polar along b, allowing for magnetically induced ferroelectricity (type II multiferroic)
+;
+
+_parent_space_group.name_H-M_alt  'C m c m
+_parent_space_group.IT_number             63
+_parent_space_group.transform_Pp_abc  'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.53 0.0 0.0
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "Cm2m1'(a,0,0)000s"
+_space_group.magn_point_group_name  "mm21'"
+_space_group.magn_point_group_number  7.2.21
+_cell_length_a                 5.23900
+_cell_length_b                 7.78700
+_cell_length_c                 6.25900
+_cell_angle_alpha              90.00000
+_cell_angle_beta               90.00000
+_cell_angle_gamma              90.00000
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,x2,-x3+1/2,-x4+1/2,+1
+3 -x1,x2,x3,-x4+1/2,+1
+4 x1,x2,-x3+1/2,x4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+3 x1+1/2,x2+1/2,x3,x4,+1
+4 x1+1/2,x2+1/2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+V1 V 0.00000 0.00000 0.00000 1
+P1_1 P 0.00000 0.35600 0.25000 1
+P1_2 P 0.00000 0.64400 0.75000 1
+O1_1 O 0.24400 0.47000 0.25000 1
+O1_2 O 0.24400 0.53000 0.75000 1
+O2_1 O 0.00000 0.25200 0.03200 1
+O2_2 O 0.00000 0.74800 -0.03200 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+V1 0.00000 0.00000 0.00000 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+V1 x 1 0.00000 -0.7(1) 0 mxs1
+V1 y 1 0.7(1) 0.00000  myc1 0
+V1 z 1 0.00000 0.00000  mzc1 0
+

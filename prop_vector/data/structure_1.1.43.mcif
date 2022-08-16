@@ -1,0 +1,173 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/30/2017 16:46:49
+# Database entry: 1.1.43 Sr3Ru2O7
+# Cif-like file for the case 1.1.43
+
+
+data_5yOhtAoR
+_audit_creation_date            2017-11-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Sr3 Ru2 O7'
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+
+_citation_journal_abbrev        "Nature Materials"
+_citation_journal_volume        14
+_citation_page_first            373
+_citation_page_last             378
+_citation_article_id            .
+_citation_year                  2015
+_citation_DOI                   10.1038/nmat4181
+
+loop_
+_citation_author_name
+"C. Lester"
+"S. Ramos"
+"R.S. Perry"
+"T.P. Croft"
+"R.I. Bewley"
+"T. Guidi"
+"P. Manuel"
+"D.D. Khalyavin"
+"E.M. Forgan"
+"S.M. Hayden"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     1.1
+_experiment_temperature     0.05
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mSM3 4 2 special primary 1 .
+mGM3+ 1 1 . primary 1 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NSD in magnetic field H=8T (WISH-beamline, ISIS Facility, UK)
+The experiment has been done in 14T cryomagnet with a dilution fridge refrigerator (very few magnetic reflections were measured)
+;
+
+_active_magnetic_irreps_details
+;
+2k structure: k1=(0,0,0) k2=(0.233,0,0)
+two primary irreps active
+;
+
+_parent_space_group.name_H-M_alt              'I 4/m m m'
+_parent_space_group.IT_number             139
+_parent_space_group.transform_Pp_abc    ''
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.23400 0.00000 0.00000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "Im'm'm(a,0,0)0ss"
+_space_group.magn_point_group_name  "m'm'm"
+_space_group.magn_point_group_number  "8.4.27"
+_cell_length_a                 3.88970
+_cell_length_b                 3.88970
+_cell_length_c                 20.73200
+_cell_angle_alpha              90.00000
+_cell_angle_beta               90.00000
+_cell_angle_gamma              90.00000
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,-x2,x3,-x4+1/2,+1
+3 -x1,x2,-x3,-x4+1/2,-1
+4 x1,-x2,-x3,x4,-1
+5 -x1,-x2,-x3,-x4,+1
+6 x1,x2,-x3,x4+1/2,+1
+7 x1,-x2,x3,x4+1/2,-1
+8 -x1,x2,x3,-x4,-1
+9 x1+1/2,x2+1/2,x3+1/2,x4,+1
+10 -x1+1/2,-x2+1/2,x3+1/2,-x4+1/2,+1
+11 -x1+1/2,x2+1/2,-x3+1/2,-x4+1/2,-1
+12 x1+1/2,-x2+1/2,-x3+1/2,x4,-1
+13 -x1+1/2,-x2+1/2,-x3+1/2,-x4,+1
+14 x1+1/2,x2+1/2,-x3+1/2,x4+1/2,+1
+15 x1+1/2,-x2+1/2,x3+1/2,x4+1/2,-1
+16 -x1+1/2,x2+1/2,x3+1/2,-x4,-1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sr1_1 Sr 0.50000 0.50000 0.00000 1
+Sr2_1 Sr 0.00000 0.00000 0.68626 1
+Ru1_1 Ru 0.00000 0.00000 0.09741 1
+O1_1 O 0.00000 0.00000 0.00000 1
+O2_1 O 0.00000 0.00000 0.19580 1
+O3_1 O 0.00000 0.50000 0.59640 1
+O3_2 O 0.00000 0.50000 0.90360 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Ru1_1 0.00000 0.00000 0.35 -
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Ru1_1 x 1 0.00000 0.00000 0.00000 0.00000
+Ru1_1 y 1 -0.10000 0.00000 myc1 0.00000
+Ru1_1 z 1 0.00000 0.00000 0.00000 0.00000
+
+

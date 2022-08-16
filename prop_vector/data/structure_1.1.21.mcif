@@ -1,0 +1,192 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/30/2017 16:45:54
+# Database entry: 1.1.21 Li2IrO3
+# Cif-like file for the case 1.1.21
+
+
+data_5yOhtAoR
+_audit_creation_date            2017-11-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Li2 Ir O3'
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+
+_citation_journal_abbrev        "PHYSICAL REVIEW LETTERS"
+_citation_journal_volume        113
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            197201
+_citation_year                  2014
+_citation_DOI                   10.1103/PhysRevLett.113.197201
+
+loop_
+_citation_author_name
+"A. Biffin"
+"R. Johnson"
+"I. Kimchi"
+"R. Morris"
+"A. Bombardi"
+"J. Analytis"
+"A. Vishwanath"
+"R. Coldea"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     39.5
+_experiment_temperature     ?
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mSM3 2 1 . primary 6 .
+mSM4 2 1 . primary 6 .
+
+_exptl_crystal_magnetic_properties_details
+;
+MRXD
+arbitrary moment scale. Absolute moments unknown.
+gamma polymorph.
+model has three free parameters instead of the 12 allowed by the symmetry.
+Positional structure with Cccm space group from a 300K measurement.
+;
+
+_active_magnetic_irreps_details
+;
+1k magnetic structure.
+The MSSG is the result of the superposition of two active irrep distortions in quadrature.
+Non centrosymmetric, non-polar symmetry.
+The symmetry reduction splits most of the atomic positions (space group of the average structure for the MSSG: C222).
+Elliptical counter-rotating spin modulations are protected by the MSSG, but four symmetry independent modulations with different components are allowed. These differences are taken as negligible, reducing the number of free spin parameters from 12 to 3.
+;
+
+_parent_space_group.name_H-M_alt              'C c c m'
+_parent_space_group.IT_number             66
+_parent_space_group.transform_Pp_abc    'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.57(1) 0.000000 0.000000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "C2221'(\a00)s00s"
+_space_group.magn_point_group_name  "2221'"
+_space_group.magn_point_group_number  "6.2.18"
+_cell_length_a                 5.9119
+_cell_length_b                 8.4461
+_cell_length_c                 17.8363
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,-x2,x3,-x4,+1
+3 -x1,x2,-x3+1/2,-x4+1/2,+1
+4 x1,-x2,-x3+1/2,x4+1/2,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1+1/2,x2+1/2,x3,x4,+1
+3 x1,x2,x3,x4+1/2,-1
+4 x1+1/2,x2+1/2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ir1_1 Ir 0.25 0.25 0.0836 1
+Ir1_2 Ir -0.25 -0.25 -0.0836 1
+Ir2_1 Ir 0.5 0.5 0.167 1
+Ir2_2 Ir -0.5 -0.5 -0.167 1
+Li1_1 Li 0 0.5 0.3333 1
+Li1_2 Li 0 -0.5 -0.3333 1
+Li2_1 Li 0.75 0.25 0.25 1
+Li2_2 Li -0.75 -0.25 -0.25 1
+Li3_1 Li 0.75 0.25 0.91667 1
+Li3_2 Li -0.75 -0.25 -0.91667 1
+Li4 Li 0.5 0.5 0.5 1
+Li5 Li 0.5 0 0 1
+O1_1 O 0.77 0.515 0.087 1
+O1_2 O -0.77 -0.515 -0.087 1
+O2_1 O 0.72 0.5 0.25 1
+O2_2 O -0.72 -0.5 -0.25 1
+O3 O 0 0.262 0 1
+O4_1 O 0.49 0.262 0.163 1
+O4_2 O -0.49 -0.262 -0.163 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Ir1_1 0 0 0 0,0,0
+Ir1_2 0 0 0 0,0,0
+Ir2_1 0 0 0 0,0,0
+Ir2_2 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Ir1_1 x 1 0 0.65(4) 0 mxs1
+Ir1_1 y 1 0 0.58(1) 0 mys1
+Ir1_1 z 1 1 0 mzc1 0
+Ir1_2 x 1 0 -0.65 0 mxs1
+Ir1_2 y 1 0 0.58 0 mys1
+Ir1_2 z 1 1 0 mzc1 0
+Ir2_1 x 1 0 -0.65 0 mxs1
+Ir2_1 y 1 0 -0.58 0 mys1
+Ir2_1 z 1 1 0 mzc1 0
+Ir2_2 x 1 0 0.65 0 mxs1
+Ir2_2 y 1 0 -0.58 0 mys1
+Ir2_2 z 1 1 0 mzc1 0
+
+

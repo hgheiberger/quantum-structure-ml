@@ -1,0 +1,168 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+
+data_5yOhtAoR
+_audit_creation_date            2018-03-25
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+
+_citation_journal_abbrev        "Journal of Magnetism and Magnetic Materials"
+_citation_journal_volume        369
+_citation_page_first            243
+_citation_page_last             248
+_citation_article_id            ?
+_citation_year                  2014
+_citation_DOI                   10.1016/j.jmmm.2014.06.052
+
+loop_
+_citation_author_name
+"P. Schobinger-Papamantellos"
+"J. Rodriguez-Carvajal"
+"K. Buschow"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  192905
+_atomic_positions_source_other               .
+
+_transition_temperature     100
+_experiment_temperature     1.5
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mA2+ 1 1 . primary 1 .
+mDT6 4 2 special primary 4 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Double conical incommensurate structure.
+Mn spin modulus: 2.12(4); spin spiral xy component Mxy: 0.31(4) ; Mz component: 2.09(4)
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate structure
+Stable below about 100K, Above this temperature, and up to 516K a commensurate AFM phase exists with propagation vector (0 0 1/2), similar to the average structure of this incommensurate phase.
+Two irreps with different wave vectors (one incommensurate) are active
+The average sructure is AFM, with type IV MSG.
+The reported phase relations between the modulations of the Mn spins (all spins in phase within each z layer, and layers at z≈1/4 and -1/4 also in phase) and the circular modulation imply, in the parameterization used here, that MiCos1=Mxy*Cos[2Pi*Di] and MiSin1=-Mxy*Sin[2*Pi*Di], i=x,y, with Dx= -(kz*2zo) and Dy= Dx-1/6. The magnetic symmetry is however mantained for any values of these four parameters, which are free under the MSSG.
+Domains related by the lost inversion operation have opposite chirality of the spin spirals  and an enantiomorphic superspace group: P6221'_c(00\g)-h00s. The operation {6z | 0 0 0 tau } has a traslation tau=5/6 instead of 1/6 in the enantiomorphic MSSG.
+;
+
+_parent_space_group.name_H-M_alt  "P  6/m  m  m"
+_parent_space_group.IT_number                       191
+_parent_space_group.transform_Pp_abc  'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.000000 0.000000 0.810000
+
+
+_parent_space_group.child_transform_Pp_abc  "a,b,2c;0,0,0"
+
+_space_group.magn_ssg_name       "P6221'_c(00\g)h00s"
+_space_group.magn_point_group_name  "6221'"
+_space_group.magn_point_group_number  24.2.88
+_cell_length_a                 5.1684(2)
+_cell_length_b                 5.1684(2)
+_cell_length_c                 16.7940(4)
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              120
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x2,x1-x2,x3,x4+1/3,+1
+3 -x1+x2,-x1,x3,x4+2/3,+1
+4 -x1,-x2,x3,x4+1/2,+1
+5 x2,-x1+x2,x3,x4+5/6,+1
+6 x1-x2,x1,x3,x4+1/6,+1
+7 x2,x1,-x3+1/2,-x4+5/6,+1
+8 x1-x2,-x2,-x3+1/2,-x4+1/2,+1
+9 -x1,-x1+x2,-x3+1/2,-x4+1/6,+1
+10 -x2,-x1,-x3+1/2,-x4+1/3,+1
+11 -x1+x2,x2,-x3+1/2,-x4,+1
+12 x1,x1-x2,-x3+1/2,-x4+2/3,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3+1/2,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Sc1 Sc 0 0 0 1
+Mn1 Mn 0.5 0 0.1229(10) 1
+Ge1 Ge 0.333333 0.666667 0.25 1
+Ge2 Ge 0.333333 0.666667 0 1
+Ge3 Ge 0 0 0.1693(8) 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Mn1 0 0 2.09 0,0,mz
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.x
+_atom_site_Fourier_wave_vector.y
+_atom_site_Fourier_wave_vector.z
+_atom_site_Fourier_wave_vector.q1_coeff
+1  1 0.000000 0.000000 0.810000
+
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Mn1 x 1 -0.0315 -0.3084  mxc1 mxs1
+Mn1 y 1 0.2514  -0.1814  myc1 mys1
+Mn1 z 1 0        0       0    0
+
+
+loop_
+_atom_site_displace_Fourier_atom_site_label
+_atom_site_displace_Fourier_axis
+_atom_site_displace_Fourier_wave_vector_seq_id
+_atom_site_displace_Fourier_param_cos
+_atom_site_displace_Fourier_param_sin
+? ? ? ? ?
+
+loop_
+_atom_site_displace_Fourier_atom_site_sym_constraints_label
+_atom_site_displace_Fourier_sym_constraints_axis
+_atom_site_displace_Fourier_wave_vector_sym_constraints_seq_id
+_atom_site_displace_Fourier_sym_constraints_param_cos
+_atom_site_displace_Fourier_sym_constraints_param_sin
+? ? ? ? ?
+

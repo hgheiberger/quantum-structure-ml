@@ -1,0 +1,165 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/30/2017 16:45:45
+# Database entry: 1.1.17 Ba3NbFe3Si2O14
+# Cif-like file for the case 1.1.17
+
+
+data_5yOhtAoR
+_audit_creation_date            2017-11-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Ba3 Nb Fe3 Si2 O1 4'
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+
+_citation_journal_abbrev        "PHYSICAL REVIEW LETTERS"
+_citation_journal_volume        101
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            247201
+_citation_year                  2008
+_citation_DOI                   10.1103/PhysRevLett.101.247201
+
+loop_
+_citation_author_name
+"K. Marty"
+"V. Simonet"
+"E. Ressouche"
+"R. Ballou"
+"P. Lejay"
+"P. Bordet"
+
+
+
+
+_atomic_positions_source_database_code_ICSD   162894
+_atomic_positions_source_other               .
+
+_transition_temperature     27
+_experiment_temperature     2
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mDT1 2 1 . primary 3 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NSD and also spin polarized diffraction
+circular approximation for the spin helix with Fe spin modulus of 4 Bohr magnetons.
+Alternative model in PHYSICAL REVIEW B 88, 104417 (2013). Unfortunately the model in this reference could not be fully interpreted and transformed into an unambiguous description within the superspace formalism, in order to be included in this collection.
+This alternative model has an additional modulation component along c, but it does not seem to correspond to a generalization of the model here, and its superspace symmetry would be different, the two models being therefore in contradiction.
+Positional structure from room temperature.
+Fe1 sine spin modulation components along the (1,2,0) direction given with non significant digits to produce the reported spin modulus of the helix.
+;
+
+_active_magnetic_irreps_details
+;
+Elliptical spin oblique helix along c with elliptical axes forced by the MSSG to be along (1,0,0) and a variable direction of type (x,2x,z). The model reported implies z=0, restricting the helix plane to the ab plane. The sign of the spin helicity is not forced by symmetry.
+2-dim active irrep, which means a one to one correspondence with the MSSG, but less free parameters than in the representation approach, due to the inclusion of the symmetry properties for operations changing k into -k.
+Helices of the other Fe atom in the basic unit cell are related by three fold rotation, which means that the 120¼ spin arrangement on the xy plane is forced by the MSSG.
+So-called positive triangular chirality among the helices is also forced by the MSSG. The opposite triangular chirality corresponds to a different irrep and MSSG.
+;
+
+_parent_space_group.name_H-M_alt              'P 321'
+_parent_space_group.IT_number             150
+_parent_space_group.transform_Pp_abc    'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.000000 0.000000 0.143000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "P3211'(00\g)000s"
+_space_group.magn_point_group_name  "321'"
+_space_group.magn_point_group_number  "18.2.66"
+_cell_length_a                 8.539(1)
+_cell_length_b                 8.539(1)
+_cell_length_c                 5.2414(1)
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              120
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x2,x1-x2,x3,x4,+1
+3 -x1+x2,-x1,x3,x4,+1
+4 x2,x1,-x3,-x4,+1
+5 x1-x2,-x2,-x3,-x4,+1
+6 -x1,-x1+x2,-x3,-x4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ba1 Ba 0.56598(2) 0 0 1
+Nb1 Nb 0 0 0 1
+Fe1 Fe 0.24964(4) 0 0.5 1
+Si1 Si 0.666667 0.333333 0.5220(1) 1
+O1 O 0.666667 0.333333 0.2162(4) 1
+O2 O 0.5259(2) 0.7024(2) 0.3536(3) 1
+O3 O 0.7840(2) 0.9002(2) 0.7760(3) 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Fe1 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Fe1 x 1 4 -2.31 mxc1 mxs1
+Fe1 y 1 0 -4.62 0 2*mxs1
+Fe1 z 1 0 0 0 mzs1
+
+

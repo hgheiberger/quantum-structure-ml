@@ -1,0 +1,138 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 03/17/2021 
+
+data_5yOhtAoR
+_audit_creation_date            2021-03-17
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+
+_citation_journal_abbrev        "J. Phys. C: Solid State Phys."
+_citation_journal_volume        15
+_citation_page_first            4835
+_citation_page_last             4846
+_citation_article_id            .
+_citation_year                  1982
+_citation_DOI                   10.1088/0022-3719/15/23/020
+
+loop_
+_citation_author_name
+"I Sosnowska"
+"T P Neumaier"
+"E Steichele"
+
+_atomic_positions_source_database_code_ICSD  75324
+_atomic_positions_source_other               .
+
+_transition_temperature     643
+_experiment_temperature     293
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mSM1 6 1 general primary 6 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Position structure from a different paper
+Moment magnitude was not adjusted. It was assumed 4 muB
+Very long period modulation
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structur
+2-dim extended (k,-k) small irrep as primary. 
+The irrep star has three (k,-k) pairs. Possible multi-k modulations involving more than one pair were not considered.
+Polar on the plane perpendicular to the propagation vector
+;
+
+_parent_space_group.name_H-M_alt  'R 3 c'
+_parent_space_group.IT_number             161
+_parent_space_group.transform_Pp_abc  'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.0045 0.0045 0.00000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "Cc1'(0,0,g)0s"
+_space_group.magn_point_group_name  "m1'"
+_space_group.magn_point_group_number  4.2.10
+_cell_length_a                 5.57750
+_cell_length_b                 5.57750
+_cell_length_c                 13.86160
+_cell_angle_alpha              90.00000
+_cell_angle_beta               90.00000
+_cell_angle_gamma              120.00000
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x2+1/3,-x1+2/3,x3+1/6,-x4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+3 x1+1/3,x2+2/3,x3+2/3,x4,+1
+4 x1+1/3,x2+2/3,x3+2/3,x4+1/2,-1
+5 x1+2/3,x2+1/3,x3+1/3,x4,+1
+6 x1+2/3,x2+1/3,x3+1/3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Bi1_1 Bi 0.00000 0.00000 0.7792 1
+Fe1_1 Fe 0.00000 0.00000 0.0000 1
+O1_1 O 0.44730 0.01980 0.7317  1
+O1_2 O  0.98020 0.42750 0.7317  1
+O1_3 O  0.57250 0.55270 0.7317  1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Fe1_1 0.00000 0.00000 0.00000 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Fe1_1 x 1  0.0 -4.0 mxc1 mxs1
+Fe1_1 y 1  0.0 -4.0 myc1 mys1
+Fe1_1 z 1 -4.0 0.0 mzc1 mzs1
+
+

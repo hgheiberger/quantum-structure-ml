@@ -1,0 +1,138 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 03/02/2021 20:26:49
+
+data_5yOhtAoR
+_audit_creation_date            2021-03-02
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+
+_citation_journal_abbrev        "PHYSICAL REVIEW B"
+_citation_journal_volume        91
+_citation_page_first            .
+_citation_page_last             .
+_citation_article_id            224419
+_citation_year                  2015
+_citation_DOI                   10.1103/PhysRevB.91.224419
+
+loop_
+_citation_author_name
+"M. Klicpera"
+"P. Javorsky"
+"P. Cermak"
+"A. Schneidewind"
+"B. Ouladdiaf"
+"M. Divis"
+
+_atomic_positions_source_database_code_ICSD  190992
+_atomic_positions_source_other               .
+
+_transition_temperature     2.7
+_experiment_temperature     1.7
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mC1 8 1 general primary 3 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NSD
+Position structure from a determination at 150K
+The origin along x4 is not standard (space inversion includes a x4 translation) in order to coincide with the initial phase chosen in the paper.
+The Figure of the structure in the paper is not consistent with the propagation vector indicated in the text. The propagation vector has been assumed correct.
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structure
+k-maximal magnetic symmetry
+2-dim extended (k,-k) small irrep along a general direction as primary
+;
+
+_parent_space_group.name_H-M_alt  "I 4 m m"
+_parent_space_group.IT_number             107
+_parent_space_group.transform_Pp_abc  'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.4 0.6 0.0
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "I1121'(a,b,0)0s"
+_space_group.magn_point_group_name  "21'"
+_space_group.magn_point_group_number  3.2.7
+_cell_length_a                 4.25270
+_cell_length_b                 4.25270
+_cell_length_c                 10.66800
+_cell_angle_alpha              90.00000
+_cell_angle_beta               90.00000
+_cell_angle_gamma              90.00000
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,-x2,x3,-x4+1/2,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+3 x1+1/2,x2+1/2,x3+1/2,x4,+1
+4 x1+1/2,x2+1/2,x3+1/2,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ce1 Ce 0.00000 0.00000 0.00000 1
+Cu1 Cu 0.00000 0.00000 0.59460 1
+Al1 Al 0.00000 0.00000 0.36890 1
+Al2_1 Al 0.00000 0.50000 0.25080 1
+Al2_2 Al 0.00000 0.50000 0.75080 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Ce1 0.00000 0.00000 0.00000 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Ce1 x 1 0.20 0.00000 mxc1 0
+Ce1 y 1 0.20 0.00000 myc1 0
+Ce1 z 1 0.00000 0.0  0 mzs1
+
+

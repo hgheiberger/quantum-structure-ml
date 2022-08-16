@@ -1,0 +1,160 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/30/2017 16:46:09
+# Database entry: 1.1.27 CeMgPb
+# Cif-like file for the case 1.1.27
+
+
+data_5yOhtAoR
+_audit_creation_date            2017-11-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Ce Mg Pb'
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+
+_citation_journal_abbrev        "Journal of Magnetism and Magnetic Materials"
+_citation_journal_volume        324
+_citation_page_first            2937
+_citation_page_last             2952
+_citation_article_id            .
+_citation_year                  2012
+_citation_DOI                   10.1016/j.jmmm.2012.03.037
+
+loop_
+_citation_author_name
+"P. Lemoine"
+"A. Verniere"
+"G. Venturini"
+"J. Marêche"
+"S. Capelli"
+"B. Malaman"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     7
+_experiment_temperature     2
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mC1 8 1 . primary 3 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+it coexists with another phase with commensurate propagation vector k=(1/2,1/2,0) (see entry # 1.142)
+sinusoidal incommensurate magnetic modulation
+amplitude of Ce spin modulation: 1.23(11)
+;
+
+_active_magnetic_irreps_details
+;
+1k magnetic structure
+k-maximal magnetic symmetry (2 possible)
+symmetry allows an arbitrary direction on the ab plane for the cosine component of the Ce spin modulation, and a non-zero sine component along c
+The origin along x4 of the MSSG has been shifted with respect to a simpler choice, in order to have the Ce spin modulation on the ab plane described by a cosine function, instead of a sine.
+;
+
+_parent_space_group.name_H-M_alt              'I 4/m m m'
+_parent_space_group.IT_number             139
+_parent_space_group.transform_Pp_abc    'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.448000 0.500000 0.000000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "I112/m1'(\a\b0)00s"
+_space_group.magn_point_group_name  "2/m1'"
+_space_group.magn_point_group_number  "5.2.13"
+_cell_length_a                 4.5380(5)
+_cell_length_b                 4.5380(5)
+_cell_length_c                 16.339(4)
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,-x2,x3,-x4+1/2,+1
+3 -x1,-x2,-x3,-x4+1/2,+1
+4 x1,x2,-x3,x4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1+1/2,x2+1/2,x3+1/2,x4,+1
+3 x1,x2,x3,x4+1/2,-1
+4 x1+1/2,x2+1/2,x3+1/2,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ce1 Ce 0 0 0.3300(10) 1
+Mg1 Mg 0 0.5 0 1
+Mg2 Mg -0.5 0 0 1
+Pb1 Pb 0 0 0.1340(10) 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Ce1 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Ce1 x 1 -0.87 0 mxc1 0
+Ce1 y 1 0.87 0 myc1 0
+Ce1 z 1 0 0 0 mzs1
+
+

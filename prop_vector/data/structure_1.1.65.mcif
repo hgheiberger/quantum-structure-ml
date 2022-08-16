@@ -1,0 +1,160 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 03/05/2020 18:16:56
+
+data_5yOhtAoR
+_audit_creation_date            2020-03-05
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    "Fe1 Ge2 Na1 O6"
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         ?
+
+
+_citation_journal_abbrev        "PHYSICAL REVIEW B"
+_citation_journal_volume        98
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            094416
+_citation_year                  2018
+_citation_DOI                   10.1103/PhysRevB.98.094416
+
+loop_
+_citation_author_name
+"L. Ding"
+"P. Manuel"
+"D.D. Khalyavin"
+"F. Orlandi"
+"A.A. Tsirlin"
+
+
+
+
+_atomic_positions_source_database_code_ICSD   180309
+_atomic_positions_source_other                .
+
+_transition_temperature     13
+_experiment_temperature     12.2
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mB1 2 1 general primary 3 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Phase called ICM2, observed between 13K and 11.6K. Below 11.6, another incommensurate phase with lower polar symmetry exists.
+Positional structure retrieved from an icsd entry (180309) for the structure at 15K
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structure
+k-maximal symmetry (2 possible)
+2-dim irrep primary. The order parameter is two dimensional (amplitude and phase). Its arbitrary phase is chosen here such that the inversion center operation of its magnetic superspace group does not include any phase shift.
+;
+
+_parent_space_group.name_H-M_alt  "C 2/c"
+_parent_space_group.IT_number             15
+_parent_space_group.transform_Pp_abc  a,b,c;0,0,0
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 -0.6999(8) 0.000000 0.0649(2)
+
+
+_parent_space_group.child_transform_Pp_abc  a,b,c;0,0,0
+
+_space_group.magn_ssg_name  "C2/c1'(a0g)00s"
+_space_group.magn_point_group_name  "2/m1'"
+_space_group.magn_point_group_number  "5.2.13"
+_cell_length_a                 9.9932
+_cell_length_b                 8.9192
+_cell_length_c                 5.5145
+_cell_angle_alpha              90
+_cell_angle_beta               107.5520
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,x2,-x3+1/2,-x4,+1
+3 -x1,-x2,-x3,-x4,+1
+4 x1,-x2,x3+1/2,x4,+1
+5 x1,x2,x3,x4+1/2,-1
+6 -x1,x2,-x3+1/2,-x4+1/2,-1
+7 -x1,-x2,-x3,-x4+1/2,-1
+8 x1,-x2,x3+1/2,x4+1/2,-1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1+1/2,x2+1/2,x3,x4,+1
+3 x1,x2,x3,x4+1/2,-1
+4 x1+1/2,x2+1/2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Na1 Na 0 0.3000 0.25 1
+Fe1 Fe 0 0.90380 0.25 1
+Ge1 Ge 0.2881 0.09380 0.2296 1
+O1 O 0.1053 0.0803 0.1304 1
+O2 O 0.3569 0.27170 0.2997 1
+O3 O 0.3615 0.0070 0.0149 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Fe1 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Fe1 x 1 0 1.55(2) 0 mxs1
+Fe1 y 1 0 0 myc1 0
+Fe1 z 1 0 0 0 mzs1
+
+

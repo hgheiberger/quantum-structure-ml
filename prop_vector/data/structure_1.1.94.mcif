@@ -1,0 +1,150 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/02/2020
+
+data_5yOhtAoR
+_audit_creation_date            2020-11-02
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    "La Mn2 Ge2"
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         ?
+
+
+_citation_journal_abbrev        "Journal of Alloys and Compounds"
+_citation_journal_volume        210
+_citation_page_first            213
+_citation_page_last             220
+_citation_article_id            ?
+_citation_year                  1994
+_citation_DOI                   10.1016/0925-8388(94)90141-4
+
+loop_
+_citation_author_name
+"G. Venturini"
+"R. Welter"
+"E. Ressouche"
+"B. Malaman"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  80507
+_atomic_positions_source_other               .
+
+_transition_temperature     322
+_experiment_temperature     2
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mGM3+ 1  1  .  primary 1 .
+mLD5  4  2  special primary 2 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Conical structure with necessarily two different propagation vectors involved
+;
+
+_active_magnetic_irreps_details
+;
+2k incommensurate structure
+Maximal symmetry under the two relevant propagation vectors
+;
+
+_parent_space_group.name_H-M_alt  "I 4/m m m"
+_parent_space_group.IT_number             139
+_parent_space_group.transform_Pp_abc  "a,b,c;0,0,0"
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.00000 0.00000 0.26
+
+
+_parent_space_group.child_transform_Pp_abc  "a,b,c;0,0,0"
+
+_space_group.magn_ssg_name  "I42'2'(0,0,g)-q00"
+_space_group.magn_point_group_name  "42'2'"
+_space_group.magn_point_group_number  12.4.43
+_cell_length_a                 4.19000
+_cell_length_b                 4.19000
+_cell_length_c                 10.94800
+_cell_angle_alpha              90.00000
+_cell_angle_beta               90.00000
+_cell_angle_gamma              90.00000
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,-x2,-x3,-x4,-1
+3 -x1,x2,-x3,-x4+1/2,-1
+4 -x1,-x2,x3,x4+1/2,+1
+5 -x2,-x1,-x3,-x4+1/4,-1
+6 -x2,x1,x3,x4+3/4,+1
+7 x2,-x1,x3,x4+1/4,+1
+8 x2,x1,-x3,-x4+3/4,-1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1+1/2,x2+1/2,x3+1/2,x4,+1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+La1_1 La 0.00000 0.00000 0.00000 1
+Mn1_1 Mn 0.00000 0.50000 0.25000 1
+Ge1_1 Ge 0.00000 0.00000 0.38000 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Mn1_1 0.00000 0.00000 1.61(11) 0,0,Mz
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Mn1_1 x 1 -2.6(4) 0.00000 Mxc1 Myc1
+Mn1_1 y 1 0.00000 -2.6    Myc1 Mxc1
+Mn1_1 z 1 0.00000 0.00000 0 0
+

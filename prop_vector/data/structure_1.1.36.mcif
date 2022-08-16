@@ -1,0 +1,169 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/30/2017 16:46:33
+# Database entry: 1.1.36 NaFeSi2O6
+# Cif-like file for the case 1.1.36
+
+
+data_5yOhtAoR
+_audit_creation_date            2017-11-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Na Fe Si2 O6'
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+
+_citation_journal_abbrev        "PHYSICAL REVIEW B"
+_citation_journal_volume        91
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            214415
+_citation_year                  2015
+_citation_DOI                   10.1103/PhysRevB.91.214415
+
+loop_
+_citation_author_name
+"M. Baum"
+"A.C. Komarek"
+"S. Holbein"
+"M.T. Fernandez-Diaz"
+"G. Andre"
+"A. Hiess"
+"Y. Sidis"
+"P. Steffens"
+"P. Becker"
+"L. Bohaty"
+"M. Braden"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     9
+_experiment_temperature     6.1
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mLD2 2 1 . primary 4 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Another incommensurate phase with an helical arrangement appears below 6K (see entry #1.37)
+The magnetic modulation of the Fe sites were modeled as transverse collinear, but the phase symmetry or the active irrep allows a more general arrangement.
+Fourier components of the modulation for the symmetry independent Fe site are only given rough approximate values corresponding to the parameters reported in the original reference.
+Amplitude of modulation: 3.0(3), angle with c axis: 8(6), phase shift between modulation of atoms related by inversion: 0.22 radians
+;
+
+_active_magnetic_irreps_details
+;
+1k magnetic incommensurate structure
+MSSG associated to the action of single irrep mode.
+The active irrep and the corresponding MSSG allows an arbitrary phase shift between the a and c components of the modulation, and therefore allows for a helical elliptical modulation.
+Space inversion is conserved through the opposite chiralities of the modulations of the sites related by inversion.
+The MSSG allows four free parameters for the 1k spin modulation. The collinear model reduces them to three.
+;
+
+_parent_space_group.name_H-M_alt              'C 2/c'
+_parent_space_group.IT_number             15
+_parent_space_group.transform_Pp_abc    'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.000000 0.780000 0.000000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "C2/c1'(0\b0)s0s"
+_space_group.magn_point_group_name  "2/m1'"
+_space_group.magn_point_group_number  "5.2.13"
+_cell_length_a                 9.6618(5)
+_cell_length_b                 8.7933(4)
+_cell_length_c                 5.2946(2)
+_cell_angle_alpha              90
+_cell_angle_beta               107.334(3)
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,x2,-x3+1/2,x4+1/2,+1
+3 -x1,-x2,-x3,-x4,+1
+4 x1,-x2,x3+1/2,-x4+1/2,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1+1/2,x2+1/2,x3,x4,+1
+3 x1,x2,x3,x4+1/2,-1
+4 x1+1/2,x2+1/2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Na1 Na 0 0.3002 0.25 1
+Fe1 Fe 0 0.8994 0.25 1
+Si1 Si 0.2905 0.0903 0.2379 1
+O1 O 0.1137 0.0796 0.1384 1
+O2 O 0.3595 0.2551 0.3041 1
+O3 O 0.3526 0.0089 0.0105 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Fe1 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Fe1 x 1 0.5 -0.1 mxc1 mxs1
+Fe1 y 1 0 0 0 0
+Fe1 z 1 3 -0.6 mzc1 mzs1
+
+

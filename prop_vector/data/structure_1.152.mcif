@@ -1,0 +1,123 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 07/18/2020 12:48:40
+
+data_5yOhtAoR
+_audit_creation_date            2020-07-18
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+
+_citation_journal_abbrev        "Solid State Sciences"
+_citation_journal_volume        10
+_citation_page_first            1910
+_citation_page_last             1915
+_citation_article_id            .
+_citation_year                  2008
+_citation_DOI                   10.1016/j.solidstatesciences.2008.03.010
+
+loop_
+_citation_author_name
+"F. Gäbler"
+"W. Schnelle"
+"A. Senyshyn"
+"R. Niewa"
+
+
+
+
+_atomic_positions_source_database_code_ICSD   260134
+_atomic_positions_source_other               .
+
+_transition_temperature     9
+_experiment_temperature     1.8
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mM2+ 3 1 . primary 1 .
+mM1- 3 1 . primary 1 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+;
+
+_active_magnetic_irreps_details
+;
+1k magnetic structure
+The magnetic symmetry assignment in reference is not correct
+The magnetic ordering splits the Ce site into two. The model assumes equal moment modulus for the two sites.
+Two irreps are active as primary order parameters.
+;
+
+_parent_space_group.name_H-M_alt  'P m -3 m'
+_parent_space_group.IT_number                       221
+_parent_space_group.transform_Pp_abc  'a,b,c;0,0,0'
+
+loop_
+_parent_propagation_vector.id
+_parent_propagation_vector.kxkykz
+k1 [0 1/2 1/2]
+
+_parent_space_group.child_transform_Pp_abc  'a,2b,2c;0,0,0'
+_space_group_magn.transform_BNS_Pp_abc  '1/2b-1/2c,1/2b+1/2c,a;0,1/4,1/4'
+
+
+_space_group_magn.number_BNS  117.305
+_space_group_magn.name_BNS  "P_C -4 b 2"
+_space_group_magn.point_group_name  "-42m1'"
+_space_group_magn.point_group_number  "14.2.49"
+_cell_length_a                 5.04460
+_cell_length_b                 10.08930
+_cell_length_c                 10.08930
+_cell_angle_alpha              90.00
+_cell_angle_beta               90.00
+_cell_angle_gamma              90.00
+
+loop_
+_space_group_symop_magn_operation.id
+_space_group_symop_magn_operation.xyz
+1 x,y,z,+1
+2 x,-y+1/2,-z+1/2,+1
+3 -x,y+1/2,-z+1/2,+1
+4 -x,-y,z,+1
+5 -x,z,-y+1/2,+1
+6 -x,-z+1/2,y,+1
+7 x,z+1/2,y,+1
+8 x,-z,-y+1/2,+1
+
+loop_
+_space_group_symop_magn_centering.id
+_space_group_symop_magn_centering.xyz
+1 x,y,z,+1
+2 x,y+1/2,z+1/2,+1
+3 x,y+1/2,z,-1
+4 x,y,z+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ce1_1 Ce 0.00000 0.25000 0.25000 1.
+Ce1_2 Ce 0.50000 0.00000 0.25000 1.
+In1 In 0.00000 0.00000 0.00000 1.
+N1 N 0.50000 0.25000 0.25000 0.95
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Ce1_1 1.75(8) 0.0 0.0 mx,0,0
+Ce1_2 0.0 0.0 1.75 0,0,mz
+

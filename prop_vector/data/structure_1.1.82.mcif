@@ -1,0 +1,143 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 05/27/2020
+
+data_5yOhtAoR
+_audit_creation_date            2020-05-27
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_citation_journal_abbrev        "J. Magn. Magn. Mat."
+_citation_journal_volume        30
+_citation_page_first            122
+_citation_page_last             126
+_citation_article_id            ?
+_citation_year                  1982
+_citation_DOI                   10.1016/0304-8853(82)90018-X
+
+loop_
+_citation_author_name
+"J. Rossat-Mignod"
+"P. Burlet"
+"S. Quezel"
+"A. Blaise"
+"J. Fournier"
+"D. Damien"
+"A. Wojakowski"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  611116
+_atomic_positions_source_other               .
+
+_transition_temperature     52
+_experiment_temperature     24.6
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mDT4 4 1 general primary 2 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NSD
+Positional structure from a determination at room temperature retrieved from ICSD
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structure
+k-maximal magnetic symmetry (4 possible)
+4-dim irrep with 4 k-vectors as primary. It is restrictied to the 2-dim (k,-k) subspace along a general direction
+The arbitrary global phase of the modulation is here fixed by the choice of origin for the x4 coordinate in the description of the MSSG operations. This phase is not the same as the one chosen in the publication.
+The MSSG allows a cycloidal modulation with the spin rotating on the ac plane.
+;
+
+_parent_space_group.name_H-M_alt  "P 4/n m m"
+_parent_space_group.IT_number             129
+_parent_space_group.transform_Pp_abc  "a,b,c;0,0,0"
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.141000 0.000000 0.000000
+
+
+_parent_space_group.child_transform_Pp_abc   "a,b,c;0,0,0"
+
+_space_group.magn_ssg_name  "Pmmn1'(a00)0s0s"
+_space_group.magn_point_group_name  "mmm1'"
+_space_group.magn_point_group_number  8.2.25
+_cell_length_a                 3.958(2)
+_cell_length_b                 3.958(2)
+_cell_length_c                 8.098(2)
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1+1/2,-x2+1/2,x3,-x4,+1
+3 -x1,x2+1/2,-x3,-x4+1/2,+1
+4 x1+1/2,-x2,-x3,x4+1/2,+1
+5 -x1,-x2,-x3,-x4,+1
+6 x1+1/2,x2+1/2,-x3,x4,+1
+7 x1,-x2+1/2,x3,x4+1/2,+1
+8 -x1+1/2,x2,x3,-x4+1/2,+1
+
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+As1 As 0.75 0.25 0 1
+Np1 Np 0.25 0.25 0.281 1
+As2 As 0.25 0.25 0.639 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Np1 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Np1 x 1 0       0   0    mxs1
+Np1 y 1 0       0   0    0
+Np1 z 1 1.58(1) 0   mzc1 0
+

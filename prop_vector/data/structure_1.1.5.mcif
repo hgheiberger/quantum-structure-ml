@@ -1,0 +1,178 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/30/2017 16:45:20
+# Database entry: 1.1.5 CaFe4As3
+# Cif-like file for the case 1.1.5
+
+
+data_5yOhtAoR
+_audit_creation_date            2017-11-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Ca Fe4 As3'
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+
+_citation_journal_abbrev        "PHYSICAL REVIEW B"
+_citation_journal_volume        81
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            184402
+_citation_year                  2010
+_citation_DOI                   10.1103/PhysRevB.81.184402
+
+loop_
+_citation_author_name
+"P. Manuel"
+"L.C. Chapon"
+"I.S. Todorov"
+"D.Y. Chung"
+"J.-P. Castellan"
+"S. Rosenkranz"
+"R. Osborn"
+"P. Toledano"
+"M.G. Kanatzidis"
+
+
+
+
+_atomic_positions_source_database_code_ICSD   260323
+_atomic_positions_source_other               .
+
+_transition_temperature     85
+_experiment_temperature     1.5
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mY1 2 1 . primary 4 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+wave vector component is locked into 3/8 below 25K
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structure
+1-dim active small irrep (only 1 possible ss groups for this irrep)
+The phases of the modulation functions reported in the article have been changed to zero or pi to make them consistent with the point group symmetry assumed in the article.
+;
+
+_parent_space_group.name_H-M_alt              'P n m a'
+_parent_space_group.IT_number             62
+_parent_space_group.transform_Pp_abc    'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.000000 0.375000 0.000000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  "Pnma1'(0\b0)000s"
+_space_group.magn_point_group_name  "mmm1'"
+_space_group.magn_point_group_number  "8.2.25"
+_cell_length_a                 11.8729(4)
+_cell_length_b                 3.7396(2)
+_cell_length_c                 11.5739(4)
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1+1/2,-x2,x3+1/2,-x4,+1
+3 -x1,x2+1/2,-x3,x4,+1
+4 x1+1/2,-x2+1/2,-x3+1/2,-x4,+1
+5 -x1,-x2,-x3,-x4,+1
+6 x1+1/2,x2,-x3+1/2,x4,+1
+7 x1,-x2+1/2,x3,-x4,+1
+8 -x1+1/2,x2+1/2,x3+1/2,x4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+As1 As 0.10103(11) 0.25 0.12189(12) 1
+As2 As 0.11550(12) 0.25 0.73731(13) 1
+As3 As 0.36731(12) 0.25 0.92283(12) 1
+Fe1 Fe 0.02100(15) 0.25 0.31350(19) 1
+Fe2 Fe 0.06677(16) 0.25 0.53727(18) 1
+Fe3 Fe 0.30580(17) 0.25 0.12471(18) 1
+Fe4 Fe 0.31841(17) 0.25 0.72371(18) 1
+Ca1 Ca 0.3402(2) 0.25 0.4306(2) 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Fe1 0 0 0 0,0,0
+Fe2 0 0 0 0,0,0
+Fe3 0 0 0 0,0,0
+Fe4 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Fe1 x 1 0 0 0 0
+Fe1 y 1 2.14 0 myc1 0
+Fe1 z 1 0 0 0 0
+Fe2 x 1 0 0 0 0
+Fe2 y 1 1.55 0 myc1 0
+Fe2 z 1 0 0 0 0
+Fe3 x 1 0 0 0 0
+Fe3 y 1 -1.83 0 myc1 0
+Fe3 z 1 0 0 0 0
+Fe4 x 1 0 0 0 0
+Fe4 y 1 1.94 0 myc1 0
+Fe4 z 1 0 0 0 0
+
+

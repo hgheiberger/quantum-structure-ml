@@ -1,0 +1,183 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 10/30/2020
+
+data_5yOhtAoR
+_audit_creation_date            2020-10-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    "Gd2 Ba Cu O5"
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         ?
+
+
+_citation_journal_abbrev        "PHYSICAL REVIEW RESEARCH"
+_citation_journal_volume        2
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            023271
+_citation_year                  2020
+_citation_DOI                   10.1103/PhysRevResearch.2.023271
+
+loop_
+_citation_author_name
+"P. Yanda"
+"I.V. Golosovsky"
+"I. Mirebeau"
+"N.V. Ter-Oganessian"
+"J. Rodriguez-Carvajal"
+"A. Sundaresan"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     11.8
+_experiment_temperature     9.8
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mLD2 2 1 general primary 12 .
+mLD3 2 1 special primary 12 .
+
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Position structure (except lattice parameters) from a determination at room temperature.
+Below 6K a lock-in phase exists with a commensurate propagation vector k=(0 0 1/2) and the 2-dim irrep mZ2 along a special direction as the active irrep.
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structure
+Two 2-dim irreps are involved as primary. They are combined in quadrature, with a pi/2 relative shift of their spin waves.
+The active irreps mLD2 and mLD3 in this phase are the two irreps compatible with the irrep mZ2 at the limit of the lock-in commensurate k-vector (0 0 1/2), which is the irrep relevant for the lock-in structure.
+Polar symmetry along a. Type II multiferroic (spin driven ferroelectricity along a).
+The present model varies from the one reported in the original article. It has a higher symmetry given by an orthorhombic magnetic superspace group, which is a supergroup of the monoclinic group considered in the article. The structure here is in accordance with the planned corrigendum of the article (private communication from J. Rodriguez-Carvajal).
+;
+
+_parent_space_group.name_H-M_alt  "P n m a"
+_parent_space_group.IT_number             62
+_parent_space_group.transform_Pp_abc  "a,b,c;0,0,0"
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.00000 0.00000 0.44490
+
+
+_parent_space_group.child_transform_Pp_abc  "a,b,c;0,0,0"
+
+_space_group.magn_ssg_name  "P2_1ma1'(0,0,g)0s0s"
+_space_group.magn_point_group_name  "mm21'"
+_space_group.magn_point_group_number  7.2.21
+_cell_length_a                 12.2282
+_cell_length_b                 5.67992
+_cell_length_c                 7.16183
+_cell_angle_alpha              90.0000
+_cell_angle_beta               90.0000
+_cell_angle_gamma              90.0000
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,1
+2 x1+1/2,-x2+1/2,-x3+1/2,-x4,1
+3 x1,-x2+1/2,x3,x4+1/2,1
+4 x1+1/2,x2,-x3+1/2,-x4+1/2,1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Gd1_1 Ho 0.28860 0.25000 0.11560 1
+Gd1_2 Ho 0.71140 0.75000 0.88440 1
+Gd2_1 Ho 0.07380 0.25000 0.39540 1
+Gd2_2 Ho -0.0738 0.75000 0.60460 1
+Cu_1 Cu 0.65920 0.25000 0.71290 1
+Cu_2 Cu 0.34080 0.75000 0.28710 1
+Ba1_1 Ba 0.90560 0.25000 0.9313 1
+Ba1_2 Ba  0.59440 0.75000 0.4313 1
+O1_1 O 0.43250 0.98800 0.1705  1
+O1_2 O  0.06750 0.01200 0.6705 1
+O2_1 O 0.22510 0.50500 0.345  1
+O2_2 O  0.27490 0.49500 0.845 1
+O3_1 O 0.09400 0.25000 0.069  1
+O3_2 O  0.40600 0.75000 0.569 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Gd1_1 0.00000 0.00000 0.00000 0,0,0
+Gd1_2 0.00000 0.00000 0.00000 0,0,0
+Gd2_1 0.00000 0.00000 0.00000 0,0,0
+Gd2_2 0.00000 0.00000 0.00000 0,0,0
+Cu_1 0.00000 0.00000 0.00000 0,0,0
+Cu_2 0.00000 0.00000 0.00000 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Gd1_1 x 1 -2.775(13) 0.367   mxc1 mxs1
+Gd1_1 y 1 0.00000 0.00000      0    0
+Gd1_1 z 1 3.73(4) 5.631(18)    mzc1 mzs1
+Gd1_2 x 1 5.496(15) 1.172(4)   mxc1 mxs1
+Gd1_2 y 1 0.00000 0.00000      0    0
+Gd1_2 z 1 2.583(11) 0.115    mzc1 mzs1
+Gd2_1 x 1 0.848 2.019(6)        mxc1 mxs1
+Gd2_1 y 1 0.00000 0.00000      0    0
+Gd2_1 z 1 2.898(4) -7.11(8)    mzc1 mzs1
+Gd2_2 x 1 -4.950(12) 2.301(9)  mxc1 mxs1
+Gd2_2 y 1 0.00000 0.00000      0    0
+Gd2_2 z 1 -1.25(2) 1.454(7)    mzc1 mzs1
+Cu_1 x 1 0.070 -0.168           mxc1 mxs1
+Cu_1 y 1 0.00000 0.00000       0    0
+Cu_1 z 1 0.998 0.914(6)        mzc1 mzs1
+Cu_2 x 1 0.735 0.481           mxc1 mxs1
+Cu_2 y 1 0.00000 0.00000       0    0
+Cu_2 z 1 0.182 -0.877(5)       mzc1 mzs1
+

@@ -1,0 +1,160 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/30/2017 16:46:43
+# Database entry: 1.1.40 FeOCl
+# Cif-like file for the case 1.1.40
+
+
+data_5yOhtAoR
+_audit_creation_date            2017-11-30
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'Fe O Cl'
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+
+_citation_journal_abbrev        "Phys. Rev. B"
+_citation_journal_volume        62
+_citation_page_first            14157
+_citation_page_last             14163
+_citation_article_id            .
+_citation_year                  2000
+_citation_DOI                   10.1103/PhysRevB.62.14157
+
+loop_
+_citation_author_name
+"S.R. Hwang"
+"W.-H. Li"
+"K.C. Lee"
+"J.W. Lynn"
+"C.-G. Wu"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     80
+_experiment_temperature     ?
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+. . . . . . .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+x component of the k-vector has been taken to be 2/7 approximately
+Chirality of the cycloids of the two Fe sites are opposite, while in the figures they have same chirality. The equations have been taken to be correct. Model to be checked because of this inconsistency.
+The superspace basic unit cell has been doubled along c with respect to the parent cell to avoid the 1/2 component along c of the wave vector. This is substituted by centering translations in the doubled unit cell.
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate magnetic structure
+k-maximal superspace symmetry
+Only one 4-dim irrep for this propagation vector. No restriction from assuming a single irrep.
+figures in reference are inconsistent with equations for the spin modulations in the text.
+Point-group symmetry is broken to monoclinic (c unique axis). This is consistent with monoclinic structural distortion within this phase reported in Zhang et al. (PHYSICAL REVIEW B 86, 134428 (2012))
+Cycloidal configuration for the spin modulations are symmetry forced. The plane of the rotation is however free on the plane ab
+;
+
+_parent_space_group.name_H-M_alt              'P m m n'
+_parent_space_group.IT_number             59
+_parent_space_group.transform_Pp_abc    'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.285714 0.500000 0.000000
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,2c;0,0,0'
+
+_space_group.magn_ssg_name  "X2/n1'(\a\b0)00s"
+_space_group.magn_point_group_name  "2/m1'"
+_space_group.magn_point_group_number  "5.2.13"
+_cell_length_a                 3.2992
+_cell_length_b                 3.7745
+_cell_length_c                 15.817
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1+1/2,-x2+1/2,x3,-x4,+1
+3 -x1,-x2,-x3,-x4,+1
+4 x1+1/2,x2+1/2,-x3,x4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3+1/2,x4+1/2,+1
+3 x1,x2,x3,x4+1/2,-1
+4 x1,x2,x3+1/2,x4,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Fe1 Fe 0.75 0.25 0.0577 1
+O1 O 0.25 0.25 0.4755 1
+Cl1 Cl 0.25 0.25 0.16505 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Fe1 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Fe1 x 1 0 -4.01(5) 0 mxs1
+Fe1 y 1 0 0 0 mys1
+Fe1 z 1 4.01 0 mzc1 0
+
+

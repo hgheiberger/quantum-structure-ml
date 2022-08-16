@@ -1,0 +1,178 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 11/01/2020
+
+data_5yOhtAoR
+_audit_creation_date            2020-11-01
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    "Ca0.93 Sr0.07 Ba Co4 O7"
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         ?
+
+
+_citation_journal_abbrev        "PHYSICAL REVIEW B"
+_citation_journal_volume        102
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            134406
+_citation_year                  2020
+_citation_DOI                   10.1103/PhysRevB.102.134406
+
+loop_
+_citation_author_name
+"J. Lohr"
+"A.L. Larralde"
+"J. Curiale"
+"R. Sanchez"
+"J. Campo"
+"G.J. Cuello"
+"D. Sheptyakov"
+"L. Keller"
+"M. Kenzelmann"
+"G. Aurelio"
+
+
+
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     82
+_experiment_temperature     70
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mQ3Q3A 2 1 general primary 24 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+The description of this modulated structure includes an origin shift (0 1/2 0) of the reference Pna2_1 basic structure tabulated in the article. This origin shift transforms the relevant magnetic superspace group into a form that is considered by the authors its standard setting.
+;
+
+_active_magnetic_irreps_details
+;
+1k incommensurate structure
+k-maximal magnetic symmetry
+2-dim irrep as primary
+Spontaneous macroscopic magnetization is not symmetry-allowed.
+The label of the irrep associated with the magnetic structure depends on the origin chosen for the description of the parent Pna2_1 structure. The irrep label given here corresponds to its description in Table II of the article, which has an origin shift (0 1/2 0) with respect to the reference basic structure used here.
+;
+
+_parent_space_group.name_H-M_alt  "Pna2_1"
+_parent_space_group.IT_number             33
+_parent_space_group.transform_Pp_abc  "a,b,c;0,0,0"
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.50000 0.50000 0.0197(2)
+
+
+_parent_space_group.child_transform_Pp_abc  "a,b,c;0,1/2,0"
+
+_space_group.magn_ssg_name  "Pna2_11'(1/2,1/2,g)qq0s"
+_space_group.magn_point_group_name  "mm21'"
+_space_group.magn_point_group_number  "7.2.21"
+_cell_length_a                 11.03519(3)
+_cell_length_b                 6.26586(4)
+_cell_length_c                 10.17849(3)
+_cell_angle_alpha              90.00000
+_cell_angle_beta               90.00000
+_cell_angle_gamma              90.00000
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,-x2,x3+1/2,-x1-x2+x4,+1
+3 -x1+1/2,x2+1/2,x3+1/2,-x1+x4+3/4,+1
+4 x1+1/2,-x2+1/2,x3,-x2+x4+3/4,+1
+
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ca1 Ca 0.67175 0.50531 0.12788 0.93000
+Sr1 Sr 0.67175 0.50531 0.12788 0.07000
+Ba1 Ba 0.66545 0.50389 0.50000 1.00000
+Co1 Co 0.00000 0.50810 0.05754 1.00000
+Co2 Co 0.17166 0.50000 0.31229 1.00000
+Co3 Co 0.08655 0.74480 0.81012 1.00000
+Co4 Co -0.08238 0.76940 0.31946 1.00000
+O1 O 0.00023 0.50000 0.74766 1.00000
+O2 O 0.49251 0.50000 0.77010 1.00000
+O3 O 0.26092 0.28721 0.21846 1.00000
+O4 O 0.74336 0.23044 0.79159 1.00000
+O5 O 0.15218 0.50000 0.49912 1.00000
+O6 O 0.10899 0.70580 -0.00176 1.00000
+O7 O -0.05209 0.76358 0.50407 1.00000
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Co1 0.00000 0.00000 0.00000 0,0,0
+Co2 0.00000 0.00000 0.00000 0,0,0
+Co3 0.00000 0.00000 0.00000 0,0,0
+Co4 0.00000 0.00000 0.00000 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Co1 x 1 -2.39   0.00000   Mxc1 Mxs1
+Co1 y 1  0.25   -1.3      Myc1 Mys1
+Co1 z 1  0.00   0.00000   Mzc1 Mzs1
+Co2 x 1  1.53   0.00000   Mxc1 Mxs1
+Co2 y 1 -1.15   0.00000   Myc1 Mys1
+Co2 z 1  0.0    0.00000   Mzc1 Mzs1
+Co3 x 1  1.53   0.00000   Mxc1 Mxs1
+Co3 y 1 -1.15   0.00000   Myc1 Mys1
+Co3 z 1  0.0    0.00000   Mzc1 Mzs1
+Co4 x 1  1.53   0.00000   Mxc1 Mxs1
+Co4 y 1 -1.15   0.00000   Myc1 Mys1
+Co4 z 1  0.0    0.00000   Mzc1 Mzs1
+

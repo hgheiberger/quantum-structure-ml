@@ -1,0 +1,160 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 09/06/2019
+
+data_5yOhtAoR
+_audit_creation_date            2019-09-06
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+
+_citation_journal_abbrev        "J. Phys.: Condens. Matter"
+_citation_journal_volume        29
+_citation_page_first            ?
+_citation_page_last             ?
+_citation_article_id            145801
+_citation_year                  2017
+_citation_DOI                   10.1088/1361-648X/aa5708
+
+loop_
+_citation_author_name
+"Y.-C. Lai"
+"C.-H. Du"
+"C.-H. Lai"
+"Y.-H. Liang"
+"C.-W. Wang"
+"K.C. Rule"
+"H.-C. Wu"
+"H.-D. Yang"
+"W.-T. Chen"
+"G.J. Shu"
+"F.-C. Chou"
+
+
+
+
+
+_atomic_positions_source_database_code_ICSD  258425
+_atomic_positions_source_other               .
+
+_transition_temperature     175
+_experiment_temperature     3.5
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mV5 4 5 special primary 4 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NSD and NPD
+Transition temperature differs significantly from other publications.
+Between 475K and 175K a commensurate phase with k=(1/2 1/2 1/2) is reported (see #1.285). Both transition temperatures differ considerably from those reported by others.
+In contrast with other publications, this study reports the absence of ferroelectricity in this incommensurate phase.
+A very different model with parent space group P4mm and oblique spins for both Fe and Cu, with two primary irreps involved, was proposed in 2015 (Phys. Rev. B 91, 064408 (2015)) It could not be introduced in this database because of the incompleteness of the information and some inconsistencies on the proposed P4mm positional structure.
+Modulus of the spins in the spiral modulations: Cu: 1.008(5) and Fe: 3.842(1)
+;
+
+_active_magnetic_irreps_details
+;
+1k magnetic structure
+4-dim irrep active
+Non-centrosymmetric, but non-polar symmetry, consistently with the absence ferroelectricity, reported in this study.
+The article states that the reported spin modulation supports a ferromagnetic component, but this is inconsistent with the model proposed and its symmetry.
+A domain-related equivalent structure with opposite chirality for the spin spiral is related with this one by the lost inversion operation and has as symmetry the corresponding enantiomorphic MSSG: P4221'(1/21/2\g)-q00s
+Amplitudes of the sine and cosine modulations of the spins of the symmetry-independent atoms have been chosen here to fullfill the reported angle betwen the two spins in the two symmetry related sites in the unit cell (173 degrees).
+;
+
+_parent_space_group.name_H-M_alt  'P 4/m m m'
+_parent_space_group.IT_number             123
+_parent_space_group.transform_Pp_abc 'a,b,c;0,0,0'
+
+_cell_modulation_dimension               1
+
+loop_
+_cell_wave_vector_seq_id
+_cell_wave_vector_x
+_cell_wave_vector_y
+_cell_wave_vector_z
+1 0.500000 0.500000 0.412200
+
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+
+_space_group.magn_ssg_name  'P4221'(1/21/2\g)q00s'
+_space_group.magn_point_group_name  "4221'"
+_space_group.magn_point_group_number  12.2.41
+_cell_length_a                 3.8674
+_cell_length_b                 3.8674
+_cell_length_c                 7.6317
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_ssg_operation.id
+_space_group_symop_magn_ssg_operation.algebraic
+1 x1,x2,x3,x4,+1
+2 -x1,-x2,x3,-x1-x2+x4+1/2,+1
+3 -x2,x1,x3,-x2+x4+1/4,+1
+4 x2,-x1,x3,-x1+x4+3/4,+1
+5 -x1,x2,-x3,x2-x4+1/2,+1
+6 x1,-x2,-x3,x1-x4,+1
+7 x2,x1,-x3,x1+x2-x4+1/4,+1
+8 -x2,-x1,-x3,-x4+3/4,+1
+
+loop_
+_space_group_symop_magn_ssg_centering.id
+_space_group_symop_magn_ssg_centering.algebraic
+1 x1,x2,x3,x4,+1
+2 x1,x2,x3,x4+1/2,-1
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Y1_1 Y 0 0 0.5 1
+Ba1_1 Ba 0 0 0 1
+Cu1_1 Cu 0.5 0.5 0.2833 0.5
+Fe1_1 Fe 0.5 0.5 0.2546 0.5
+O1_1 O 0.5 0.5 0 1
+O2_1 O 0 0.5 0.6847 1
+
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+Cu1_1 0 0 0 0,0,0
+Fe1_1 0 0 0 0,0,0
+
+loop_
+_atom_site_Fourier_wave_vector.seq_id
+_atom_site_Fourier_wave_vector.q1_coeff
+1 1
+
+loop_
+_atom_site_moment_Fourier.atom_site_label
+_atom_site_moment_Fourier.axis
+_atom_site_moment_Fourier.wave_vector_seq_id
+_atom_site_moment_Fourier_param.cos
+_atom_site_moment_Fourier_param.sin
+_atom_site_moment_Fourier_param.cos_symmform
+_atom_site_moment_Fourier_param.sin_symmform
+Cu1_1 x 1 0.81  -0.59 -mys1 mxs1
+Cu1_1 y 1 -0.59 -0.81  mxs1 mys1
+Cu1_1 z 1 0 0 0 0
+Fe1_1 x 1 2.95 -2.47 -mys1 mxs1
+Fe1_1 y 1 -2.47 -2.95 mxs1 mys1
+Fe1_1 z 1 0 0 0 0
+
